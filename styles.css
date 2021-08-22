@@ -1,0 +1,278 @@
+body, html {
+    background-color: hsl(185, 41%, 84%);
+    font-family: 'Space Mono';
+    margin: 0;
+}
+
+/* Title Section */
+.title {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+button {
+    font-family: 'Space Mono';
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2rem 9rem auto;
+}
+
+.left {
+    margin: 2rem;
+}
+
+.right {
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 5%;
+    margin: 2rem;
+    padding: 2rem;
+
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.tip-value {
+    color: hsl(172, 67%, 45%);
+    font-size: 200%;
+    font-weight: 700;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.total-value {
+    color: hsl(172, 67%, 45%);
+    font-size: 200%;
+    font-weight: 700;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.buttons {
+    
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-gap: 10px;
+}
+
+.five-percent {
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 6%;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.five-percent:hover {
+    background-color: hsl(185, 41%, 84%);
+    color: hsl(183, 100%, 15%);
+}
+
+
+.ten-percent {
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 6%;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.ten-percent:hover {
+    background-color: hsl(185, 41%, 84%);
+    color: hsl(183, 100%, 15%);
+}
+
+.fifteen-percent {
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 6%;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.fifteen-percent:hover {
+    background-color: hsl(185, 41%, 84%);
+    color: hsl(183, 100%, 15%);
+}
+
+.twenty-five-percent {
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 6%;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.twenty-five-percent:hover {
+    background-color: hsl(185, 41%, 84%);
+    color: hsl(183, 100%, 15%);
+}
+
+.fifty-percent {
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 6%;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.fifty-percent:hover {
+    background-color: hsl(185, 41%, 84%);
+    color: hsl(183, 100%, 15%);
+}
+
+.reset-button {
+    background-color: hsl(172, 67%, 45%);
+    border-radius: 5px;
+    border-style: none;
+    color: hsl(183, 100%, 15%);
+    cursor: pointer;
+    font-family: 'Space Mono';
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 4rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    width: 100%;
+}
+
+.reset-button:hover {
+    background-color: hsl(185, 41%, 84%);
+    color: hsl(183, 100%, 15%);
+}
+
+.bill-amount {
+    background-color: hsl(189, 41%, 97%);
+    border-radius: 5px;
+    border-style: none;
+    box-sizing: border-box;
+    color: hsl(180, 4%, 26%);
+    font-family: 'Space Mono';
+    font-size: 24px;
+    font-weight: 700;
+    padding-right: 1rem;
+    text-align: right;
+    width: 100%;
+}
+
+.bill-amount:focus {
+    border: solid 2px hsl(172, 67%, 45%);
+    outline: none;
+}
+
+.number-of-people {
+    background-color: hsl(189, 41%, 97%);
+    border-radius: 5px;
+    border-style: none;
+    box-sizing: border-box;
+    color: hsl(183, 100%, 15%);
+    font-family: 'Space Mono';
+    font-size: 24px;
+    font-weight: 700;
+    padding-right: 1rem;
+    text-align: right;
+    width: 100%;
+}
+
+.number-of-people:focus {
+    border: solid 2px hsl(172, 67%, 45%);
+    outline: none;
+}
+
+.number-of-people-text {
+    display: inline-block;
+}
+
+.cant-be-zero {
+    border: 2px solid #A52A2A;
+
+}
+
+.cant-be-zero-text {
+    display: none;
+    color: #A52A2A;
+    position: relative;
+    left: 9.5rem;
+}
+
+.custom {
+    background-color: hsl(189, 41%, 97%);
+    border-radius: 6%;
+    border-style: none;
+    font-family: 'Space Mono';
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.custom:focus {
+    border: solid 2px hsl(172, 67%, 45%);
+    outline: none;
+}
+
+.tip-amount-text {
+    color: white;
+}
+
+.total-per-person-text {
+    color: white;
+}
+
+.active-button {
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+
+.active-button:hover {
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+
+.gray-color {
+    color: hsl(186, 14%, 43%);
+}
+
+.money-logo {
+    position: absolute;
+    right: 93%;
+    top: 10px;
+}
+
+.bill-container {
+    position: relative;
+    
+}
+
+@media screen and (max-width: 500px) {
+    .card {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        margin: 2rem 0rem auto;
+        
+    }
+    
+    .title {
+        margin-top: 3rem;
+    }    
+}

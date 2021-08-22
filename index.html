@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="main">
+    <div class="title">
+      <img src="images/logo.svg">
+    </div>
+    <div class="card">
+      <div class="left">
+        <p>Bill</p>
+        <div class="bill-container">
+          <input class="bill-amount" type="text" placeholder="0">
+          <img class="money-logo" src="images/icon-dollar.svg">
+        </div>
+        <p>Select Tip %</p>
+        <div class="buttons">
+          <button class="five-percent">5%</button>
+          <button class="ten-percent">10%</button>
+          <button class="fifteen-percent">15%</button>
+          <button class="twenty-five-percent">25%</button>
+          <button class="fifty-percent">50%</button>
+          <input type="text" class="custom" placeholder="Custom">
+        </div>
+
+
+
+
+        <p class="number-of-people-text">Number of People</p>
+        <p class="cant-be-zero-text">Can't be zero</p>
+        <div class="bill-container">
+          <input class="number-of-people" type="text" placeholder="0">
+          <img class="money-logo" src="images/icon-person.svg">
+        </div>
+      </div>
+      <div class="right">
+        <div class="container">
+
+          <p class="tip-amount-text">Tip Amount <br><span class="gray-color">/person</span></p>
+          <p class="tip-value">$0.00</p>
+
+          <p class="total-per-person-text">Total <br><span class="gray-color">/person</span></p>
+
+
+
+
+          <p class="total-value">$0.00</p>
+        </div>
+        <button class="reset-button">RESET</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
